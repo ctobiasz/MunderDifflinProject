@@ -1,5 +1,5 @@
 
-// This is for the carousel slideshow -- major help from W3schools
+// This is for the carousel slideshow -- help from W3schools
 
 var slideIndex = 0;
 showSlides();
