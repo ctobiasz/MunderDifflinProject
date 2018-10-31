@@ -11,6 +11,7 @@ ul {
   list-style-type: none;
 }
 .navbar {
+  position: fixed;
   display: inline-block;
   list-style-type: none;
   overflow: hidden;
@@ -63,6 +64,7 @@ li a {
 .headline {
   display: grid;;
   width: 100%;
+  padding-top: 70px;
   float: center;
   margin-bottom: 50px;
 }
@@ -181,11 +183,42 @@ li a {
 /* THIS IS THE MAIN STATEMENT (SECTION) */
 
 #mainstatement {
-  height: 600px;
+  height: 500px;
   width: auto;
+  display: grid;
+  float: center;
+  text-align: center;
+}
+
+#paperHeader {
+  height: 100px;
+  margin-bottom: -125px;
+  display: inline;
+  font-family: 'Francois One', sans-serif;
+  font-size: 3em;
+  text-align: center;
+  line-height: 80%;
+}
+
+#boxlfp {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  width: 500px;
+  margin-bottom: 30px;
+  line-height: 10%;
 }
 
 
+
+#loveforpaper {
+  display: inline-block;
+  line-height: 3;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.1em;
+  text-align: center;
+
+}
 
 
 
