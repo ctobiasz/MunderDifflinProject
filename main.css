@@ -190,9 +190,9 @@ li a {
   text-align: center;
 }
 
-#paperHeader {
+.paperHeader {
   height: 100px;
-  margin-bottom: -125px;
+  margin-bottom: -30px;
   display: inline;
   font-family: 'Francois One', sans-serif;
   font-size: 3em;
@@ -221,9 +221,78 @@ li a {
 }
 
 
+/* Showcasing paper products */
+
+#paperoptions {
+  height: 800px;
+  width: auto;
+  display: grid;
+  float: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* paper product images and positions */
+
+#pic1 {
+  display: block;
+  text-align: center;
+  width: 400px;
+  height: 400px;
+  border: 1px solid black;
+}
+#pic2 {
+  display: block;
+  text-align: center;
+  width: 400px;
+  height: 400px;
+  border: 1px solid green;
+}
+#pic3 {
+  display: block;
+  text-align: center;
+  width: 400px;
+  height: 400px;
+  border: 1px solid #008B8B;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: black;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.1em;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
 
 
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
 
+.active {
+  background-color: black;
+}
+
+/* ENDING PART */
 
 
 /* ALL THINGS FOOTER */
