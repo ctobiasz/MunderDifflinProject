@@ -14,11 +14,13 @@ function left2Right() {
 }
 
 flying.addEventListener('click', left2Right);
+
+// Change this to ('event') listener
 // flying.addEventListener('click', leftRightStop);
 
 
 
-// // function for newletters fo show.
-// function myFunction() {
-//     alert("THANK YOU FOR SIGNING UP!");
-// }
+// function for newletters to show.
+function myFunction() {
+    alert("THANK YOU FOR SIGNING UP!");
+}

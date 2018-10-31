@@ -18,6 +18,7 @@ ul {
   background-color: #000000;
   text-align: center;
   width: 100%;
+  z-index: 1;
 }
 
 .navbar a {
@@ -52,6 +53,10 @@ li a {
 
 .navbar li a:hover, a:focus {
   color: #ffeb75;
+}
+#mdLogo a:hover, a:focus {
+  color: #ffeb75;
+
 }
 
 #spot {
@@ -294,11 +299,55 @@ li a {
 
 /* ENDING PART */
 
+#goodbye {
+  width: auto;
+  height: 500px;
+  display: grid;
+  float: center;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.flyingpaperimg {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+.paper-animation {
+  animation: myfirst 5s 2;
+  animation-direction: alternate;
+  animation: myfirst 20s;
+  animation-direction: alternate;
+}
+
+@keyframes myfirst {
+    0%   {left: -800px; top: 0px;}
+    25%  {left: 800px; top: 0px;}
+    50%  {right: 800px; top: 0px;}
+    75%  {left: -800px; top: 0px;}
+    100% {left: 800px; top: 0px;}
+
+}
+
+
+/*     FORM STUFF     */
+
+/* .formstuff {
+  display: flex;
+  float: left;
+  padding: 0;
+
+} */
+
+
+
 
 /* ALL THINGS FOOTER */
 
 footer {
-  position: fixed;
+  position: relative;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -307,8 +356,14 @@ footer {
   width: 100%;
 }
 
+
 footer a img {
   width: 30px;
   height: 30px;
   padding: 5px;
+}
+
+
+#copywrite {
+  color: white;
 }
