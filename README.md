@@ -4,6 +4,6 @@
 ##This project is simply a website that mocks how a paper company website would look.
 
 ###Languages used:
-                 HTML
-                 CSS
+                 HTML,
+                 CSS,
                  JavaScript
